@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="colorPrimary">#FAC110</color>
+    <color name="colorPrimaryDark">	#1E90FF</color>
+    <color name="Accent">#03DAC5</color>
+    <color name="colorText">#414AFF</color>
+    <color name="colorBgLayout">#414AFF</color>
+    <color name="Grey">#878383</color>
+    <color name="BgText">#8D53AEFE</color>
+    <color name="gradEnd">#A2E7E7</color>
+    <color name="gradStart">#10FAFA</color>
+    <color name="address">#FAC110</color>
+    <color name="bgFoll">#1043FA</color>
+    <color name="solidCircle">#1043FA</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background1">#FFFFCC</color>
+    <color name="colorPrimary2">#007BFF</color>
+    <color name="colorAccent">#28A745</color>
+    <color name="colorGoogle">#FFC107</color>
+    <color name="purple">#2A58E4</color>
+</resources>

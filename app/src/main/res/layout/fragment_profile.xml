@@ -1,0 +1,104 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_background">
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/background_profile">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="♫ Profile Mahasiswa ♫"
+                android:id="@+id/loginText"
+                android:textSize="28sp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/profile"
+                android:background="@drawable/circle_background"
+                android:clipToOutline="true"
+                android:layout_marginTop="32dp" />
+
+            <TextView
+                android:id="@+id/nim_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:layout_marginTop="16dp"
+                android:text="NIM         : 10120090"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/rounded_button_background"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Nama      : Muhammad Rizky Muhyi"
+                app:autoSizeTextType="uniform"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:fontFamily="serif"
+                android:background="@drawable/rounded_button_background"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/kelas_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Kelas       : IF-3"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/rounded_button_background"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/email_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Email       : elmuhyi04@gmail.com"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/rounded_button_background"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5sp"
+    app:cardCornerRadius="35sp"
+    android:layout_marginStart="5sp"
+    android:layout_marginEnd="5sp"
+    android:layout_marginTop="4sp"
+    android:layout_marginBottom="2sp"
+    android:background="@drawable/gradient_background"
+    android:id="@+id/data">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:background="@drawable/rounded_field_background">
+
+        <TextView
+            android:id="@+id/tjudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginBottom="5sp"
+            android:singleLine="true"
+            android:text="Judul"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tjudul"
+            android:id="@+id/tkategori"
+            android:textSize="16sp"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:singleLine="true"
+            android:text="Kategori"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tkategori"
+            android:id="@+id/ttanggal"
+            android:textSize="16sp"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:singleLine="true"
+            android:text="Tanggal"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

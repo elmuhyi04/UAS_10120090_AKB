@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:id="@+id/splash_screen"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/judultugassplashscreen"
+        android:layout_width="420dp"
+        android:layout_height="430dp"
+        android:gravity="center"
+        android:text="Tugas Aplikasi Komputasi Bergerak"
+        android:textSize="18dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/nimsplash"
+        android:layout_width="420dp"
+        android:layout_height="170dp"
+        android:gravity="center"
+        android:text="10120090 - Muhammad Rizky Muhyi"
+        android:textSize="18dp"
+        android:layout_below="@id/judultugassplashscreen"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="#FFFFFF"
+        android:src="@drawable/logounikom2"
+        />
+
+</RelativeLayout>
