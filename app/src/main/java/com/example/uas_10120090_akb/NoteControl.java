@@ -1,5 +1,5 @@
 package com.example.uas_10120090_akb;
-//NIM   : 10102090
+//NIM   : 10120090
 //NAMA  : Muhammad Rizky Muhyi
 //Kelas : IF-3
 
